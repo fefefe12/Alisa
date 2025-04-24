@@ -10,7 +10,7 @@ import unicodedata
 
 from langdetect import detect
 
-from PURVIMUSIC import app as bot
+from Spy import app as bot
 
 # ✅ MongoDB Connection
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://teamdaxx123:teamdaxx123@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority")
